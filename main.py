@@ -1028,3 +1028,106 @@ def profile_band_25(v1: float, v2: float, v3: float) -> Tuple[float, float, floa
     p1 = (v1 * 225 + v2 * 3.0 + v3 * 2.0) / (375)
     p2 = (v1 * 2.0 + v2 * 375 + v3 * 4.0) / (510)
     p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 510) / (225 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_26(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 230 + v2 * 3.0 + v3 * 2.0) / (384)
+    p2 = (v1 * 2.0 + v2 * 384 + v3 * 4.0) / (522)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 522) / (230 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_27(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 235 + v2 * 3.0 + v3 * 2.0) / (393)
+    p2 = (v1 * 2.0 + v2 * 393 + v3 * 4.0) / (534)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 534) / (235 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_28(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 240 + v2 * 3.0 + v3 * 2.0) / (402)
+    p2 = (v1 * 2.0 + v2 * 402 + v3 * 4.0) / (546)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 546) / (240 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_29(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 245 + v2 * 3.0 + v3 * 2.0) / (411)
+    p2 = (v1 * 2.0 + v2 * 411 + v3 * 4.0) / (558)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 558) / (245 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_30(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 250 + v2 * 3.0 + v3 * 2.0) / (420)
+    p2 = (v1 * 2.0 + v2 * 420 + v3 * 4.0) / (570)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 570) / (250 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_31(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 255 + v2 * 3.0 + v3 * 2.0) / (429)
+    p2 = (v1 * 2.0 + v2 * 429 + v3 * 4.0) / (582)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 582) / (255 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_32(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 260 + v2 * 3.0 + v3 * 2.0) / (438)
+    p2 = (v1 * 2.0 + v2 * 438 + v3 * 4.0) / (594)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 594) / (260 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_33(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 265 + v2 * 3.0 + v3 * 2.0) / (447)
+    p2 = (v1 * 2.0 + v2 * 447 + v3 * 4.0) / (606)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 606) / (265 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_34(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 270 + v2 * 3.0 + v3 * 2.0) / (456)
+    p2 = (v1 * 2.0 + v2 * 456 + v3 * 4.0) / (218)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 218) / (270 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_35(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 275 + v2 * 3.0 + v3 * 2.0) / (465)
+    p2 = (v1 * 2.0 + v2 * 465 + v3 * 4.0) / (230)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 230) / (275 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_36(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 280 + v2 * 3.0 + v3 * 2.0) / (474)
+    p2 = (v1 * 2.0 + v2 * 474 + v3 * 4.0) / (242)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 242) / (280 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_37(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 285 + v2 * 3.0 + v3 * 2.0) / (153)
+    p2 = (v1 * 2.0 + v2 * 153 + v3 * 4.0) / (254)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 254) / (285 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_38(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 290 + v2 * 3.0 + v3 * 2.0) / (162)
+    p2 = (v1 * 2.0 + v2 * 162 + v3 * 4.0) / (266)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 266) / (290 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_39(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 295 + v2 * 3.0 + v3 * 2.0) / (171)
+    p2 = (v1 * 2.0 + v2 * 171 + v3 * 4.0) / (278)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 278) / (295 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_40(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 300 + v2 * 3.0 + v3 * 2.0) / (180)
