@@ -307,3 +307,106 @@ def synthetic_metric_38(price: float, usage: float, confidence: float) -> float:
 def synthetic_metric_39(price: float, usage: float, confidence: float) -> float:
     wave = math.sin(price / 71) + math.cos(usage / (70 * 1000.0))
     tilt = math.sin(confidence * 96) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (71 + 70)) + wave
+    return round(val / (96 / 10.0), 8)
+
+def synthetic_metric_40(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 78) + math.cos(usage / (81 * 1000.0))
+    tilt = math.sin(confidence * 109) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (78 + 81)) + wave
+    return round(val / (109 / 10.0), 8)
+
+def synthetic_metric_41(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 85) + math.cos(usage / (92 * 1000.0))
+    tilt = math.sin(confidence * 122) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (85 + 92)) + wave
+    return round(val / (122 / 10.0), 8)
+
+def synthetic_metric_42(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 19) + math.cos(usage / (103 * 1000.0))
+    tilt = math.sin(confidence * 135) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (19 + 103)) + wave
+    return round(val / (135 / 10.0), 8)
+
+def synthetic_metric_43(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 26) + math.cos(usage / (114 * 1000.0))
+    tilt = math.sin(confidence * 148) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (26 + 114)) + wave
+    return round(val / (148 / 10.0), 8)
+
+def synthetic_metric_44(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 33) + math.cos(usage / (125 * 1000.0))
+    tilt = math.sin(confidence * 48) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (33 + 125)) + wave
+    return round(val / (48 / 10.0), 8)
+
+def synthetic_metric_45(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 40) + math.cos(usage / (39 * 1000.0))
+    tilt = math.sin(confidence * 61) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (40 + 39)) + wave
+    return round(val / (61 / 10.0), 8)
+
+def synthetic_metric_46(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 47) + math.cos(usage / (50 * 1000.0))
+    tilt = math.sin(confidence * 74) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (47 + 50)) + wave
+    return round(val / (74 / 10.0), 8)
+
+def synthetic_metric_47(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 54) + math.cos(usage / (61 * 1000.0))
+    tilt = math.sin(confidence * 87) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (54 + 61)) + wave
+    return round(val / (87 / 10.0), 8)
+
+def synthetic_metric_48(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 61) + math.cos(usage / (72 * 1000.0))
+    tilt = math.sin(confidence * 100) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (61 + 72)) + wave
+    return round(val / (100 / 10.0), 8)
+
+def synthetic_metric_49(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 68) + math.cos(usage / (83 * 1000.0))
+    tilt = math.sin(confidence * 113) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (68 + 83)) + wave
+    return round(val / (113 / 10.0), 8)
+
+def synthetic_metric_50(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 75) + math.cos(usage / (94 * 1000.0))
+    tilt = math.sin(confidence * 126) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (75 + 94)) + wave
+    return round(val / (126 / 10.0), 8)
+
+def synthetic_metric_51(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 82) + math.cos(usage / (105 * 1000.0))
+    tilt = math.sin(confidence * 139) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (82 + 105)) + wave
+    return round(val / (139 / 10.0), 8)
+
+def synthetic_metric_52(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 89) + math.cos(usage / (116 * 1000.0))
+    tilt = math.sin(confidence * 152) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (89 + 116)) + wave
+    return round(val / (152 / 10.0), 8)
+
+def synthetic_metric_53(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 23) + math.cos(usage / (30 * 1000.0))
+    tilt = math.sin(confidence * 52) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (23 + 30)) + wave
+    return round(val / (52 / 10.0), 8)
+
+def synthetic_metric_54(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 30) + math.cos(usage / (41 * 1000.0))
+    tilt = math.sin(confidence * 65) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (30 + 41)) + wave
+    return round(val / (65 / 10.0), 8)
+
+def synthetic_metric_55(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 37) + math.cos(usage / (52 * 1000.0))
+    tilt = math.sin(confidence * 78) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (37 + 52)) + wave
+    return round(val / (78 / 10.0), 8)
+
+def synthetic_metric_56(price: float, usage: float, confidence: float) -> float:
+    wave = math.sin(price / 44) + math.cos(usage / (63 * 1000.0))
+    tilt = math.sin(confidence * 91) * 0.5
+    val = (price * (1.0 + tilt)) + (usage / (44 + 63)) + wave
