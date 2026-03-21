@@ -1543,3 +1543,106 @@ def profile_band_98(v1: float, v2: float, v3: float) -> Tuple[float, float, floa
     return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
 
 def profile_band_99(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 305 + v2 * 3.0 + v3 * 2.0) / (381)
+    p2 = (v1 * 2.0 + v2 * 381 + v3 * 4.0) / (598)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 598) / (305 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_100(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 310 + v2 * 3.0 + v3 * 2.0) / (390)
+    p2 = (v1 * 2.0 + v2 * 390 + v3 * 4.0) / (210)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 210) / (310 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_101(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 315 + v2 * 3.0 + v3 * 2.0) / (399)
+    p2 = (v1 * 2.0 + v2 * 399 + v3 * 4.0) / (222)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 222) / (315 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_102(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 320 + v2 * 3.0 + v3 * 2.0) / (408)
+    p2 = (v1 * 2.0 + v2 * 408 + v3 * 4.0) / (234)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 234) / (320 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_103(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 325 + v2 * 3.0 + v3 * 2.0) / (417)
+    p2 = (v1 * 2.0 + v2 * 417 + v3 * 4.0) / (246)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 246) / (325 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_104(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 330 + v2 * 3.0 + v3 * 2.0) / (426)
+    p2 = (v1 * 2.0 + v2 * 426 + v3 * 4.0) / (258)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 258) / (330 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_105(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 335 + v2 * 3.0 + v3 * 2.0) / (435)
+    p2 = (v1 * 2.0 + v2 * 435 + v3 * 4.0) / (270)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 270) / (335 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_106(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 340 + v2 * 3.0 + v3 * 2.0) / (444)
+    p2 = (v1 * 2.0 + v2 * 444 + v3 * 4.0) / (282)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 282) / (340 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_107(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 345 + v2 * 3.0 + v3 * 2.0) / (453)
+    p2 = (v1 * 2.0 + v2 * 453 + v3 * 4.0) / (294)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 294) / (345 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_108(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 350 + v2 * 3.0 + v3 * 2.0) / (462)
+    p2 = (v1 * 2.0 + v2 * 462 + v3 * 4.0) / (306)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 306) / (350 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_109(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 355 + v2 * 3.0 + v3 * 2.0) / (471)
+    p2 = (v1 * 2.0 + v2 * 471 + v3 * 4.0) / (318)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 318) / (355 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def profile_band_110(v1: float, v2: float, v3: float) -> Tuple[float, float, float, float]:
+    p1 = (v1 * 360 + v2 * 3.0 + v3 * 2.0) / (150)
+    p2 = (v1 * 2.0 + v2 * 150 + v3 * 4.0) / (330)
+    p3 = (v1 * 5.0 + v2 * 7.0 + v3 * 330) / (360 + 1)
+    p4 = (p1 + p2 + p3) / 3.0
+    return (round(p1, 8), round(p2, 8), round(p3, 8), round(p4, 8))
+
+def build_dashboard_payload(series: List[RegionReading]) -> Dict[str, object]:
+    grouped = group_by_region(series)
+    signals = [compute_signal(items) for items in grouped.values()]
+    return {"app": APP_NAME, "version": APP_VERSION, "generated_at": utc_now().isoformat(), "totals": {"records": len(series), "regions": len(grouped), "avg_price": round(statistics.mean(x.price_usd for x in series), 5), "avg_usage": round(statistics.mean(x.usage_barrels for x in series), 5)}, "signals": [asdict(s) for s in signals], "data": [asdict(x) for x in series]}
+def save_payload(payload: Dict[str, object], output_file: Path) -> None:
+    output_file.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+def render_console(signals: List[Dict[str, object]]) -> None:
+    print("=" * 76)
+    print(f"{APP_NAME} | oil market risk board".center(76))
+    print("=" * 76)
+    for signal in signals:
+        region = str(signal["region"]).ljust(14)
+        level = str(signal["level"]).upper().ljust(8)
+        score = f"{float(signal['imbalance_score']):7.3f}"
+        vol = f"{float(signal['volatility']):7.4f}"
+        up = f"{float(signal['utilization_pressure']):7.4f}"
+        print(f"{region} | {level} | score={score} vol={vol} pressure={up}")
+    print("=" * 76)
+def run() -> None:
+    series = build_series(hours=168)
