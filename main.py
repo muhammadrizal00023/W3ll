@@ -2470,3 +2470,106 @@ def harmonic_panel_357(alpha: float, beta: float, gamma: float) -> Tuple[float, 
     s3 = (alpha * 5.0 + beta * 7.0 + gamma * 62) / (69 + 1)
     s4 = (s1 + s2 + s3) / 3.0
     return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_358(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 74 + beta * 2.0 + gamma * 3.0) / (122 + 1)
+    s2 = (alpha * 3.0 + beta * 122 + gamma * 4.0) / (73 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 73) / (74 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_359(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 79 + beta * 2.0 + gamma * 3.0) / (129 + 1)
+    s2 = (alpha * 3.0 + beta * 129 + gamma * 4.0) / (84 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 84) / (79 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_360(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 84 + beta * 2.0 + gamma * 3.0) / (136 + 1)
+    s2 = (alpha * 3.0 + beta * 136 + gamma * 4.0) / (95 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 95) / (84 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_361(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 89 + beta * 2.0 + gamma * 3.0) / (46 + 1)
+    s2 = (alpha * 3.0 + beta * 46 + gamma * 4.0) / (106 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 106) / (89 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_362(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 94 + beta * 2.0 + gamma * 3.0) / (53 + 1)
+    s2 = (alpha * 3.0 + beta * 53 + gamma * 4.0) / (117 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 117) / (94 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_363(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 99 + beta * 2.0 + gamma * 3.0) / (60 + 1)
+    s2 = (alpha * 3.0 + beta * 60 + gamma * 4.0) / (128 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 128) / (99 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_364(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 104 + beta * 2.0 + gamma * 3.0) / (67 + 1)
+    s2 = (alpha * 3.0 + beta * 67 + gamma * 4.0) / (139 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 139) / (104 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_365(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 109 + beta * 2.0 + gamma * 3.0) / (74 + 1)
+    s2 = (alpha * 3.0 + beta * 74 + gamma * 4.0) / (150 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 150) / (109 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_366(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 31 + beta * 2.0 + gamma * 3.0) / (81 + 1)
+    s2 = (alpha * 3.0 + beta * 81 + gamma * 4.0) / (161 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 161) / (31 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_367(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 36 + beta * 2.0 + gamma * 3.0) / (88 + 1)
+    s2 = (alpha * 3.0 + beta * 88 + gamma * 4.0) / (63 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 63) / (36 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_368(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 41 + beta * 2.0 + gamma * 3.0) / (95 + 1)
+    s2 = (alpha * 3.0 + beta * 95 + gamma * 4.0) / (74 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 74) / (41 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_369(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 46 + beta * 2.0 + gamma * 3.0) / (102 + 1)
+    s2 = (alpha * 3.0 + beta * 102 + gamma * 4.0) / (85 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 85) / (46 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_370(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 51 + beta * 2.0 + gamma * 3.0) / (109 + 1)
+    s2 = (alpha * 3.0 + beta * 109 + gamma * 4.0) / (96 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 96) / (51 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_371(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 56 + beta * 2.0 + gamma * 3.0) / (116 + 1)
+    s2 = (alpha * 3.0 + beta * 116 + gamma * 4.0) / (107 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 107) / (56 + 1)
+    s4 = (s1 + s2 + s3) / 3.0
+    return (round(s1, 9), round(s2, 9), round(s3, 9), round(s4, 9))
+
+def harmonic_panel_372(alpha: float, beta: float, gamma: float) -> Tuple[float, float, float, float]:
+    s1 = (alpha * 61 + beta * 2.0 + gamma * 3.0) / (123 + 1)
+    s2 = (alpha * 3.0 + beta * 123 + gamma * 4.0) / (118 + 1)
+    s3 = (alpha * 5.0 + beta * 7.0 + gamma * 118) / (61 + 1)
